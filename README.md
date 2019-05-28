@@ -17,6 +17,6 @@ RAILS_ENV=production bundle exec rake assets:precompile
 
 
 
-bundle exec puma -p 80 -d
-pgrep -f '^([^ ]*/)?puma '^C
-bundle exec pumactl -p 22353 stop
+bundle exec puma -p 80 -d  
+pgrep -f '^([^ ]*/)?puma '^C  
+bundle exec pumactl -p 22353 stop  
