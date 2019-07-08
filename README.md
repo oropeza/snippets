@@ -1,4 +1,10 @@
 
+fail2ban-client status
+fail2ban-client set YOURJAILNAMEHERE unbanip IPADDRESSHERE
+
+eJEMPLO
+fail2ban-client set sshd unbanip IPADDRESSHERE
+
 
 Generar llave para SSL  
 openssl req -new -newkey rsa:4096 -days 365 -nodes -keyout example.com.key -out example.com.csr
