@@ -1,3 +1,5 @@
+tar cvzf tarball.tar.gz directory/
+
 
 fail2ban-client status
 fail2ban-client set YOURJAILNAMEHERE unbanip IPADDRESSHERE
