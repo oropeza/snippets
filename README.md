@@ -1,5 +1,12 @@
-tar cvzf tarball.tar.gz directory/
 
+## Respaldo
+
+tar cvzf tarball.tar.gz directory/
+mysqldump -u root -p  mydatabasename > moodle-database.sql
+
+## Dir
+
+rm -rf mydir
 
 fail2ban-client status
 fail2ban-client set YOURJAILNAMEHERE unbanip IPADDRESSHERE
