@@ -1,7 +1,7 @@
 
 ## Respaldo
 
-tar cvzf tarball.tar.gz directory/
+tar cvzf tarball.tar.gz directory/  
 mysqldump -u root -p  mydatabasename > moodle-database.sql
 
 ## Dir
