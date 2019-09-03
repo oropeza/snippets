@@ -4,6 +4,10 @@
 tar cvzf tarball.tar.gz directory/  
 mysqldump -u root -p  mydatabasename > moodle-database.sql
 
+
+https://www.linode.com/docs/platform/disk-images/copying-a-disk-image-over-ssh/
+
+ 
 ## Dir
 
 rm -rf mydir
