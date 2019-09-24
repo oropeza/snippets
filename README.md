@@ -20,8 +20,8 @@ eJEMPLO
 fail2ban-client set sshd unbanip IPADDRESSHERE
 
 ## SSL
-Generar llave para SSL  
-mkdir /etc/ssl/localcerts
+Generar llave para SSL    
+mkdir /etc/ssl/localcerts  
 openssl req -new -newkey rsa:4096 -days 365 -nodes -keyout example.com.key -out example.com.csr
 
 ## db
