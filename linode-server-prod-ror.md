@@ -1,18 +1,20 @@
-
-
-# Server Config
+## Server Config
+```
 sudo apt-get -y update && sudo apt-get -y upgrade
 sudo timedatectl set-timezone  America/Mexico_City
-
-# Hostname
+```
+## Hostname
+```
 sudo hostnamectl set-hostname $NAME$
 nano /etc/hosts
+```
 
-#user
+## user
+```
 sudo adduser deploy
 sudo adduser deploy sudo
 su deploy
-
+```
 
 #RUBY RAILS MYSQL
 https://gorails.com/setup/ubuntu/18.04
