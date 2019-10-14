@@ -1,0 +1,9 @@
+server {
+ 
+   root /srv/DIR/APP/public; 
+   passenger_enabled on;
+   passenger_app_env production;
+   #passenger_ruby /home/deploy/.rbenv/versions/2.6.5/bin/ruby;
+  
+}
+
