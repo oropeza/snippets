@@ -20,19 +20,30 @@ su deploy
 https://gorails.com/setup/ubuntu/18.04
 
 ## INSTALL NGIX 
+```
 sudo apt install -y nginx
+```
 
 ## PASSANGER
 https://www.phusionpassenger.com/library/install/nginx/install/oss/bionic/
 
+## dir
+```
+mkdir $dir
+sudo chown -R deploy:deploy  $dir
+```
 
+## Generales
+```
 sudo chown -R deploy:deploy vulnerabilidad
 chmod 0777 module_installation/
+```
 
 >>  ~/.bashrc
 inicio
 cd /srv
 fin
+
 
 
 Ref
