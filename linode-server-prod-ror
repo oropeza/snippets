@@ -1,17 +1,20 @@
-sudo apt-get update
-sudo apt-get upgrade
 
+
+# Server Config
+sudo apt-get -y update && sudo apt-get -y upgrade
 sudo timedatectl set-timezone  America/Mexico_City
 
-
-sudo hostnamectl set-hostname NAME
+# Hostname
+sudo hostnamectl set-hostname $NAME$
 nano /etc/hosts
 
+#user
 sudo adduser deploy
 sudo adduser deploy sudo
 su deploy
 
-RUBY RAILS MYSQL
+
+#RUBY RAILS MYSQL
 https://gorails.com/setup/ubuntu/18.04
 
 sudo chown -R deploy:deploy vulnerabilidad
