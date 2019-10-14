@@ -47,10 +47,9 @@ fin
 
 
 Ref
-https://www.vultr.com/docs/how-to-install-and-configure-ruby-with-rbenv-rails-mariadb-nginx-ssl-and-passenger-on-ubuntu-17-04
-https://www.phusionpassenger.com/library/install/nginx/install/oss/bionic/
-https://askubuntu.com/questions/320444/setting-up-rbenv-properly
-https://mediatemple.net/community/products/developer/204405534/install-nginx-on-ubuntu
-https://www.digitalocean.com/community/tutorials/how-to-deploy-a-rails-app-with-passenger-and-nginx-on-ubuntu-14-04
-https://www.hugeserver.com/kb/how-serve-ruby-rails-app-nginx-passenger-ubuntu16/
-https://www.digitalocean.com/community/tutorials/how-to-deploy-a-rails-app-with-passenger-and-nginx-on-ubuntu-14-04
+- https://www.vultr.com/docs/how-to-install-and-configure-ruby-with-rbenv-rails-mariadb-nginx-ssl-and-passenger-on-ubuntu-17-04
+- https://www.phusionpassenger.com/library/install/nginx/install/oss/bionic/
+- https://askubuntu.com/questions/320444/setting-up-rbenv-properly
+- https://mediatemple.net/community/products/developer/204405534/install-nginx-on-ubuntu
+- https://www.digitalocean.com/community/tutorials/how-to-deploy-a-rails-app-with-passenger-and-nginx-on-ubuntu-14-04
+- https://www.hugeserver.com/kb/how-serve-ruby-rails-app-nginx-passenger-ubuntu16/
