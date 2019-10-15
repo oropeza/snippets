@@ -33,6 +33,11 @@ mkdir $dir
 sudo chown -R deploy:deploy  $dir
 ```
 
+## Tools
+```
+sudo apt install imagemagick
+```
+
 ## Generales
 ```
 sudo chown -R deploy:deploy vulnerabilidad
