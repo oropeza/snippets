@@ -1,0 +1,28 @@
+#CONFIG FILE FOR RAILS - NGINX - SSL
+
+server{
+  listen 80;
+  server_name  site.mx;
+  return 301 https://$server_name$request_uri;
+}
+
+
+server {
+
+    listen 443 ssl;
+    server_name site.mx;
+
+
+    root /srv/site/public;
+
+
+    passenger_enabled on;
+    passenger_app_env production;
+    passenger_ruby /home/deploy/.rbenv/versions/2.6.3/bin/ruby;
+
+    ssl_certificate /etc/ssl/localcerts/site.mx.cer;
+    ssl_certificate_key /etc/ssl/localcerts/site.mx.key;
+
+}
+
+
