@@ -1,4 +1,5 @@
 bundle install
+EDITOR="atom --wait" rails credentials:edit
 RAILS_ENV=production rake db:create db:migrate db:seed
 rake assets:precompile RAILS_ENV=production
 rails s -e production -b 0.0.0.0
