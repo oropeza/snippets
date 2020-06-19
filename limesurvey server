@@ -1,0 +1,27 @@
+
+
+Server Config
+sudo apt-get -y update && sudo apt-get -y upgrade
+sudo timedatectl set-timezone  America/Mexico_City
+
+
+Hostname
+sudo hostnamectl set-hostname $NAME$
+nano /etc/hosts
+
+sudo apt-get install apache2
+
+
+MARIA DB
+sudo apt install mariadb-server mariadb-client
+sudo mysql_secure_installation
+
+php
+sudo apt install php libapache2-mod-php 
+
+sudo apt install php-mysql
+sudo apt install unzip
+
+
+curl https://download.limesurvey.org/latest-stable-release/limesurvey4.3.0+200616.zip -o lime430.zip
+unzip lime430.zip
