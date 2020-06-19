@@ -25,3 +25,6 @@ sudo apt install unzip
 
 curl https://download.limesurvey.org/latest-stable-release/limesurvey4.3.0+200616.zip -o lime430.zip
 unzip lime430.zip
+
+
+https://www.linode.com/docs/security/using-fail2ban-to-secure-your-server-a-tutorial/
