@@ -13,6 +13,11 @@ https://www.linode.com/docs/platform/disk-images/copying-a-disk-image-over-ssh/
 rm -rf mydir
 
 ## Fail2ban
+
+
+<https://www.linode.com/docs/security/using-fail2ban-to-secure-your-server-a-tutorial/>
+
+
 ```
 fail2ban-client status
 fail2ban-client set YOURJAILNAMEHERE unbanip IPADDRESSHERE
@@ -29,9 +34,10 @@ openssl req -new -newkey rsa:4096 -days 365 -nodes -keyout example.com.key -out 
 
 ## db
 Crear usuario y darle permisos
+```
 CREATE USER 'nombre_usuario'@'localhost' IDENTIFIED BY 'tu_contrasena';
 GRANT ALL PRIVILEGES ON * . * TO 'nombre_usuario'@'localhost';
-
+```
 
 
 rake db:create db:migrate db:seed RAILS_ENV=production
@@ -41,6 +47,8 @@ RAILS_ENV=production bundle exec rake assets:precompile
 
 
 
+```
 bundle exec puma -p 80 -d  
 pgrep -f '^([^ ]*/)?puma '^C  
 bundle exec pumactl -p 22353 stop  
+```
