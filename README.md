@@ -13,16 +13,19 @@ https://www.linode.com/docs/platform/disk-images/copying-a-disk-image-over-ssh/
 rm -rf mydir
 
 ## Fail2ban
+```
 fail2ban-client status
 fail2ban-client set YOURJAILNAMEHERE unbanip IPADDRESSHERE
-
+```
 eJEMPLO
 fail2ban-client set sshd unbanip IPADDRESSHERE
 
 ## SSL
 Generar llave para SSL    
+```
 mkdir /etc/ssl/localcerts  
 openssl req -new -newkey rsa:4096 -days 365 -nodes -keyout example.com.key -out example.com.csr
+```
 
 ## db
 Crear usuario y darle permisos
