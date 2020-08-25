@@ -1,0 +1,32 @@
+
+
+
+<VirtualHost *:80>
+	ServerName  grandesempresas.mx
+	RewriteEngine On
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=permanent]
+</VirtualHost>
+
+
+
+<VirtualHost *:443>
+	<Directory /var/www/grandesempresas.mx >
+   	 Options FollowSymLinks
+   	 AllowOverride All
+   	 Require all granted
+	</Directory>
+
+
+	ServerName grandesempresas.mx
+ 	ServerAlias grandesempresas.mx
+
+	ServerAdmin webmaster@grandesempresas
+	DocumentRoot /var/www/grandesempresas.mx
+
+	SSLEngine on
+	SSLCertificateFile /etc/ssl/localcerts/grandesempresas.mx.crt
+	SSLCertificateKeyFile /etc/ssl/localcerts/grandesempresas.mx.key
+	SSLCertificateChainFile /etc/ssl/localcerts/grandesempresas.mx.intermediate.crt
+        SSLCACertificateFile  /etc/ssl/localcerts/grandesempresas.mx.root.crt
+
+</VirtualHost>
